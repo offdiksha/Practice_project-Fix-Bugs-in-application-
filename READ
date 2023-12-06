@@ -1,4 +1,5 @@
 # Practice_project-Fix-Bugs-in-application-
+package com.thedesk;
 import java.util.ArrayList;
 import java.util.Scanner;
 
