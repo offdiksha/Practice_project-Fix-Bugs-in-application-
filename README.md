@@ -1,8 +1,9 @@
 package com.FourthAssignment;
+
 import java.util.Arrays;
+
 public class BugFixingApplication {
- 
-    public static int binarySearch(int[] array, int target) {
+   public static int binarySearch(int[] array, int target) {
         int low = 0;
         int high = array.length - 1;
  
