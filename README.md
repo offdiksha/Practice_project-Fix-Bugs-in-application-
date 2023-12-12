@@ -1,8 +1,5 @@
 package com.FourthAssignment;
-
-
 import java.util.Arrays;
- 
 public class BugFixingApplication {
  
     public static int binarySearch(int[] array, int target) {
@@ -24,7 +21,9 @@ public class BugFixingApplication {
         return -1; // Target not found
     }
  
-        public static void quicksort(int[] array, int low, int high) {
+    // Task 2: Sorting the Predefined Array
+    // Implementing quicksort
+    public static void quicksort(int[] array, int low, int high) {
         if (low < high) {
             int pivotIndex = partition(array, low, high);
  
@@ -55,7 +54,10 @@ public class BugFixingApplication {
     }
  
     public static void main(String[] args) {
+        // Example array
         int[] array = {5, 2, 8, 1, 6, 3, 7, 4};
+ 
+        // Task 1: Searching Technique
         int target = 6;
         int searchResult = binarySearch(array, target);
         System.out.println("Search Result: " + searchResult);
