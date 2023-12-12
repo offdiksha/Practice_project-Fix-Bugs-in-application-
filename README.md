@@ -5,8 +5,6 @@ import java.util.Arrays;
  
 public class BugFixingApplication {
  
-    // Task 1: Searching Technique
-    // Implementing binary search
     public static int binarySearch(int[] array, int target) {
         int low = 0;
         int high = array.length - 1;
@@ -26,9 +24,7 @@ public class BugFixingApplication {
         return -1; // Target not found
     }
  
-    // Task 2: Sorting the Predefined Array
-    // Implementing quicksort
-    public static void quicksort(int[] array, int low, int high) {
+        public static void quicksort(int[] array, int low, int high) {
         if (low < high) {
             int pivotIndex = partition(array, low, high);
  
@@ -59,10 +55,7 @@ public class BugFixingApplication {
     }
  
     public static void main(String[] args) {
-        // Example array
         int[] array = {5, 2, 8, 1, 6, 3, 7, 4};
- 
-        // Task 1: Searching Technique
         int target = 6;
         int searchResult = binarySearch(array, target);
         System.out.println("Search Result: " + searchResult);
